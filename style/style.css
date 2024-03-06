@@ -1,0 +1,24 @@
+body {
+    background-color: #083b4c;
+}
+
+.chessSquare {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1389b2;
+    margin: 1px;
+}
+
+.fizzBuzz {
+    background-color: #f0466f;
+}
+
+.fizz {
+    background-color: #0cd6a1;
+}
+
+.buzz {
+    background-color: #ffd166;
+}
