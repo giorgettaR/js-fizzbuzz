@@ -19,22 +19,22 @@ for (let c = 0; c < 100; c++) {
             // customizzazione cella multipli di 3 e 5
             squareElement.innerHTML = '<div>fizz buzz</div>';
             squareElement.classList.add('fizzBuzz')
-                // console.log('fizz buzz');
+            console.log('fizz buzz');
         } else {
             // customizzazione cella multipli di 3
             squareElement.innerHTML = '<div>fizz</div>';
             squareElement.classList.add('fizz')
-                // console.log('fizz');
+            console.log('fizz');
         }
     } else if (n % 5 == 0) {
         // customizzazione cella multipli di 5
         squareElement.innerHTML = '<div>buzz</div>';
         squareElement.classList.add('buzz')
-            // console.log('buzz');
+        console.log('buzz');
     } else {
         // customizzazione cella semplice
         squareElement.innerHTML = '<div>' + n + '</div>';
-            // console.log(n);
+        console.log(n);
     }
 
     // aggiungere cella a file html
