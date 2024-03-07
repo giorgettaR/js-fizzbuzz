@@ -4,10 +4,7 @@
 const chessBoardElement = document.querySelector('.chessBoard') // Object | null
 
 // ciclo
-for (let c = 0; c < 100; c++) {
-
-    // creazione variabile numero effettivo
-    let n = c + 1;
+for (let n = 1; n <= 100; n++) {
 
     // creazione cella
     const squareElement = document.createElement('div'); // Object
@@ -35,7 +32,7 @@ for (let c = 0; c < 100; c++) {
         console.log(n);
         }
 
-        // aggiungere cella a file html
-        chessBoardElement.append(squareElement);
+    // aggiungere cella a file html
+    chessBoardElement.append(squareElement);
 
 }
